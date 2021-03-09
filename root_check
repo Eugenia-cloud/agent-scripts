@@ -1,10 +1,10 @@
 
-
-
 #!bin/bash
 
 if [ ${UID} -ne 0 ]
 then
+echo
 echo "You need a root access"
+echo
 exit 1
 fi
