@@ -10,7 +10,7 @@ pipeline {
         sh 'mvn clean'
         sh 'mvn install'
         sh 'mvn package'
-        sleep 10      
+         
       }
     }
     stage('test') {
