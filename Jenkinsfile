@@ -7,9 +7,8 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'mvn clean'
-        sh 'mvn install'
-        sh 'mvn package'
+       echo 'Hello build'
+        sleep 10
          
       }
     }
